@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
+h2 { font-size: 48px; margin-bottom: 30px; }
+h3 { font-size: 33px; }
+
+p {
+    font-size: 18px;
+    color: #1a1a1a;
+    opacity: .5;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+section
+{
+    padding: 40px 0;
+}
+
+.content-center
+{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+/* //////////////
+   Menu
+//////////////*/
+
+.navbar
+{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link
+{
+    color: #1a1a1a;
+}
+
+.nav-link:hover
+{
+    color: #506679;
+}
+
+.logo-brand
+{
+    min-width: 120px;
+    max-width: 140px;
+}
+
+.navbar-toggler
+{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus
+{
+    outline: none;
+}
+
+.carousel
+{
+    max-height: 700px;
+}
+
+/* //////////////
+   Conoce Mas
+//////////////*/
+
+.full-width {
+    width: 100%;
+}
+
+#conoceMas .container-fluid
+{
+    max-width: 900px;
+    text-align: center;
+}
+
+.card-body a
+{
+    display: inline-block;
+    font-size: 1.1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #111;
+    letter-spacing: 2px;
+}
+
+
+/* //////////////
+   Footer
+//////////////*/
+
+.bgDark { background-color: var(--dark-color); }
+:root {--dark-color: #1a1a1a;}
+
+footer .logo-brand
+{
+    filter: invert(1);
+}
+
+footer 
+{
+    padding: 80px 0;
+    text-align: center;
+    color: #fff ;
+}
+
+footer a 
+{
+    color: #fff ;
+}
+
+footer a:hover 
+{
+    color: #fff ;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+@media (max-width: 575.98px) 
+{ 
+   .container-fluid { padding: 90px;}
+   h2{ font-size: x-large; text-align: center;}
+   h3{ font-size: x-large; text-align: center;}
+   p{ font-size: small; text-align: center;}
+   
+}
+
+/*
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }*/
