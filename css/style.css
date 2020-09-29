@@ -86,7 +86,31 @@ section
     max-width: 1100px;
     text-align: center;
     margin-bottom: 70px;
+    margin-top: 60px;
 }
+
+.card
+{
+    border: 0;
+}
+/*
+#conoceMas
+{
+    background-color: rgba(153, 153, 153, 0.2);
+    
+}
+
+
+.card-img-top
+{
+    background-color: rgba(88, 204, 117, 0.2);
+}
+
+.card-body
+{
+    background-color: rgba(27, 90, 43, 0.2);
+}
+*/
 
 .card-body a
 {
@@ -102,17 +126,34 @@ section
     letter-spacing: 2px;
 }
 
+.card-body p
+{
+    margin-bottom: 70px;
+}
+
+/* //////////////
+   Contacto
+//////////////*/
+
+#contacta
+{
+    margin-bottom: 70px;
+}
+
+
+
 
 /* //////////////
    Footer
 //////////////*/
 
-.bgDark { background-color: var(--dark-color); }
+.footerDark { background-color: var(--dark-color); }
 :root {--dark-color: #1a1a1a;}
 
 footer .logo-brand
 {
     filter: invert(1);
+    margin-bottom: 30px;
 }
 
 footer 
